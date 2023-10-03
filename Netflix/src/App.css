@@ -1,0 +1,51 @@
+.nav
+{
+  display: flex;
+}
+
+.link
+{
+  margin: 30px;
+
+}
+
+body{
+  background-color: black;
+
+}
+
+.active
+{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.allImages
+{
+  display: flex;
+  overflow-x: scroll;
+}
+.allImages::-webkit-scrollbar
+{
+display: none;
+}
+
+img{
+  margin: 10px;
+}
+
+
+
+
+ /* End Pont*/
+
+
+ /* Netflix orignals */
+
+/* https://api.themoviedb.org/3/discover/tv/?api_key=3df97bd1e5e9c545b1a1d13a906d79e1&with_network=123 */
+ 
+
+/* Action Movies */
+
+ /* Romance Movies */
