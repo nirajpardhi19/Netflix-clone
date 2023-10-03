@@ -21,14 +21,14 @@ export default function Login(props)
             
             const userName = auth.currentUser.displayName
             const email = auth.currentUser.email
-            console.log(userName, email)
+            //console.log(userName, email)
 
             navigate("/home")
 
         })
         .catch(function(error)
         {
-           console.log(error)
+           //console.log(error)
         })
     }
   return (
